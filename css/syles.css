@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilos base para el cuerpo y la tipografía */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+header {
+    background-color: #c8650f; /* Cambiando el color de fondo */
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em; /* Tamaño del logotipo aumentado */
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em; /* Tamaño del texto del menú aumentado */
+}
+.menu a:hover{
+    
+}
+
+/* Estilos para la sección hero */
+.hero {
+    background-image: url('/assets/images/team-work.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+}
+
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 4em; /* Tamaño del título aumentado */
+}
+
+.hero p {
+    font-size: 1.5em; /* Tamaño del texto aumentado */
+    margin-bottom: 30px;
+}
+
+
+.cta-button {
+    display: inline-block;
+    padding: 20px 40px; /* Botón más grande */
+    background-color: #FFD700; /* Amarillo vibrante */
+    color: #333; /* Color de texto más oscuro para contrastar */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-radius: 8px; /* Esquinas redondeadas */
+}
+
+.cta-button:hover {
+    background-color: #FFC107; /* Cambia el color al pasar el ratón */
+}
+
+/* Estilos para otras secciones */
+.services,
+.portfolio,
+.contact {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.services h2,
+.portfolio h2,
+.contact h2 {
+    font-size: 3em; /* Tamaño del título aumentado */
+    color: #0074E4; /* Color azul vibrante */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333; /* Color de fondo más oscuro */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
