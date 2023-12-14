@@ -8,13 +8,14 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #333;
+    background-color: #252525;
 }
 
-header {
-    background-color: #c8650f; /* Cambiando el color de fondo */
-    color: #fff;
+header {    
+    background-color: #FFF; /* Cambiando el color de fondo */
+    color: #252525;
     padding: 20px 0;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.5);
 }
 
 nav {
@@ -24,15 +25,14 @@ nav {
 }
 
 .logo a {
-    color: #fff;
+    color: #484646;
     text-decoration: none;
     font-size: 2em; /* Tamaño del logotipo aumentado */
 }
 
 .menu {
     list-style: none;
-    display: flex;
-    
+    display: flex;    
 }
 
 .menu li {
@@ -40,13 +40,13 @@ nav {
 }
 
 .menu a {
-    color: #fff;
+    color: #484646;
     font-weight: bold;
     font-size: 1.2em; /* Tamaño del texto del menú aumentado */
     text-decoration: none;
 }
 .menu a:hover{    
-    text-decoration: underline;
+    text-shadow: 1px 1px 4px rgba(58, 56, 56, 0.3);
 }
 
 /* Estilos para la sección hero */
