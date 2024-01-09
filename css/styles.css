@@ -4,4 +4,45 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100vh;
+}
+
+header {
+  height: fit-content;
+}
+header .row {
+  display: flex;
+}
+header p {
+  color: #fff;
+}
+header h1 {
+  color: #fff;
+  font-size: 5em;
+  padding: 70px 0px;
+  width: 170px;
+  margin: 0 auto;
+}
+header h1 .soft-red {
+  color: rgb(196, 18, 18);
+}
+header .navegador {
+  width: 100%;
+  background-color: #fff;
+}
+header .mas-soft {
+  background-color: #141414;
+}
+
+@media screen and (max-width: 467px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  header h1 {
+    font-size: 2em;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

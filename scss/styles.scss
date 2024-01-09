@@ -3,3 +3,46 @@
 padding: 0;
 box-sizing: border-box;
 }
+body{
+    height: 100vh;
+}
+
+header{    
+    height: fit-content;
+    .row{
+        display: flex;
+    }
+    p{
+        color: #fff;
+    }
+    h1{
+        color: #fff;
+        font-size: 5em;
+        padding:70px 0px;
+        width: 170px;
+        margin: 0 auto;
+        .soft-red{
+            color: rgb(196, 18, 18);
+        }
+    }
+    .navegador{
+        width: 100%;
+        background-color: #fff;            
+    }
+    .mas-soft{
+        background-color: #141414;
+     
+    }
+    
+}
+@media screen and (max-width: 467px){
+    header{
+        display: flex;
+        flex-direction: column;
+        h1{
+            font-size: 2em;
+        }         
+    }
+    
+}
+    

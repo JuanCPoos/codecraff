@@ -4,21 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Craft | Desarrollo Web y Diseño Profesional</title>
-    <link rel="stylesheet" href="/css/syles.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- boorstrap cdn-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <a href="#" class="font-monospace">Code Craft</a>
+      <!-- Encabezado -->
+      <header class="text-center py-5">
+        <div class="navegador">
+            <nav class="fixed-top container">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+            </nav>
+        </div>        
+        <div class="container .mas-soft">
+            <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <h1>mucho <strong>(+)más</strong> que <strong class="soft-red">software!</strong></h1>
+            </div>        
+            <div class="col-sm-6 col-md-6 col-lg-8">
+                <img class="img-fluid" src="https://images.unsplash.com/photo-1526925539332-aa3b66e35444?q=80&w=1365&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="imagen de más que software" width="50%">
             </div>
-            <ul class="menu">
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
+            </div>
+        </div>
+        
+        <p>Transformamos ideas en sitios web increíbles</p>
+        <a href="#contacto" class="btn btn-primary btn-lg">¡Obtén tu sitio web ahora!</a>
     </header>
 
     <section class="hero">
@@ -47,6 +71,8 @@
     <footer>
         <p>&copy; 2023 Code Craft. Todos los derechos reservados.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- scrirpt bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
